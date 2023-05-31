@@ -109,7 +109,7 @@ class Skill():
             self._angle_reward = 0.1
             self._ctrl_penalty = 1e-3
             self._foot_penalty = 0.01
-            self._delta_h_penalty = 1 # 5 fails
+            self._delta_h_penalty = 0.5 # 5 fails
             self._walk_reward = 5
             self._fall_penalty = 5
             self._min_height = 0.8
